@@ -1,0 +1,105 @@
+.texte {
+	font-size: 11px;
+	font-weight: normal;
+	color: #999999;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+a.menuORANGE:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-variant: normal;
+	color: FF802B;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.menuORANGE:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-variant: normal;
+	color: FF802B;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.menuORANGE:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-variant: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.menuORANGE:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-variant: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.menuGRIS:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-variant: normal;
+	color: 111111;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.menuGRIS:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-variant: normal;
+	color: 111111;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.menuGRIS:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-variant: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.menuGRIS:active {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-variant: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+BODY {
+scrollbar-face-color: #111111; 
+scrollbar-shadow-color: #111111;
+scrollbar-highlight-color: #111111;
+scrollbar-3dlight-color: #111111; 
+scrollbar-darkshadow-color: #111111; 
+scrollbar-track-color: #111111; 
+scrollbar-arrow-color: #226E83;
+
+}
+.titre {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: 238099;
+}
+.soustitre {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: FF802B;
+}
+.texteORANGE {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: FF802B;
+
+}
+.texteBLEU {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: 238099;
+}
