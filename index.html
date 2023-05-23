@@ -1,79 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Game Developer Portfolio</title>
-  <link rel="stylesheet" href="styles.css type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+<body>
+    <header>
+        <h1>Mon Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<body background="images/fond.gif" leftmargin="0" topmargin="15" marginwidth="0" marginheight="0">
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+    <section id="about">
+        <h2>À propos de moi</h2>
+        <p>Insérez ici une brève description de vous-même et de vos compétences en tant que développeur informatique.</p>
+    </section>
 
-  <section id="home">
-    <div class="overlay">
-      <h1>Welcome to My Game Developer Portfolio</h1>
-      <p>I create captivating games that take you on incredible adventures!</p>
-    </div>
-  </section>
+    <section id="projects">
+        <h2>Mes projets</h2>
+        <div class="project">
+            <h3>Projet 1</h3>
+            <p>Description du projet 1.</p>
+        </div>
+        <div class="project">
+            <h3>Projet 2</h3>
+            <p>Description du projet 2.</p>
+        </div>
+        <!-- Ajoutez d'autres projets ici -->
+    </section>
 
-  <section id="about">
-    <div class="container">
-      <h2>About Me</h2>
-      <img src="https://thenounproject.com/api/private/icons/101867/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0&token=gAAAAABkX9CGlkBoIKMSx3DlXj3HsVYobHjFE1zqtP3f8kUAYoAbDndH3H01h7cDMTrlUJH8Yr9Xg72Q022VFUGImxdOqPspDw%3D%3D" alt="Profile Picture">
-      <p>I'm a passionate game developer with expertise in creating immersive gaming experiences. I specialize in designing
-        and developing games for various platforms, including PC, consoles, and mobile devices.</p>
-      <p>With a strong background in programming and a keen eye for design, I strive to deliver games that not only provide
-        entertainment but also leave a lasting impact on players.</p>
-    </div>
-  </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Vous pouvez me contacter à l'adresse e-mail suivante : <a href="mailto:contact@example.com">contact@example.com</a></p>
+    </section>
 
-  <section id="portfolio">
-    <div class="container">
-      <h2>Portfolio</h2>
-      <div class="game">
-        <img src="game1_thumbnail.jpg" alt="Game 1">
-        <h3>Game Title 1</h3>
-        <p>Description of the game.</p>
-      </div>
-      <div class="game">
-        <img src="game2_thumbnail.jpg" alt="Game 2">
-        <h3>Game Title 2</h3>
-        <p>Description of the game.</p>
-      </div>
-      <!-- Add more game entries as needed -->
-    </div>
-  </section>
-
-  <section id="contact">
-    <div class="container">
-      <h2>Contact Me</h2>
-      <p>If you're interested in collaborating or have any questions, feel free to reach out to me.</p>
-      <form action="submit_form.php" method="POST">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-        <input type="submit" value="Send Message">
-      </form>
-    </div>
-  </section>
-
-  <footer>
-    <p>&copy; 2023 Your Name. All rights reserved.</p>
-  </footer>
+    <footer>
+        <p>&copy; 2023 Mon Portfolio. Tous droits réservés.</p>
+    </footer>
 </body>
-
 </html>
