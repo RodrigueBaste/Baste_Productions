@@ -164,3 +164,25 @@
   font-stretch: normal;
   text-decoration: underline;
 }
+/* Styles pour les écrans plus petits */
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Styles pour les écrans très petits */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+/* Autres ajustements de mise en page en fonction de la taille de l'écran */
+@media (max-width: 1024px) {
+  /* Ajoutez vos ajustements de mise en page ici */
+}
+
+@media (max-width: 768px) {
+  /* Ajoutez vos ajustements de mise en page ici */
+}
