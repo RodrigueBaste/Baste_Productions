@@ -1,0 +1,240 @@
+.my-project-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.my-project-my-project {
+  width: 100%;
+  height: 1080px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(229, 229, 229, 1);
+}
+.my-project-rectangle1 {
+  top: 0px;
+  left: 0px;
+  width: 1920px;
+  height: 199px;
+  position: absolute;
+}
+.my-project-rectangle2 {
+  top: 199px;
+  left: 0px;
+  width: 1920px;
+  height: 199px;
+  position: absolute;
+}
+.my-project-download1 {
+  top: 220px;
+  left: 1284px;
+  width: 145px;
+  height: 142px;
+  position: absolute;
+}
+.my-project-text {
+  top: 50px;
+  left: 738px;
+  color: rgba(255, 255, 255, 1);
+  width: 443px;
+  height: auto;
+  position: absolute;
+  font-size: 80px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.my-project-text02 {
+  top: 170px;
+  color: rgba(255, 255, 255, 1);
+  width: 368px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.my-project-home-overingbutton {
+  top: 109px;
+  left: 1452px;
+  width: 174px;
+  height: 90px;
+  position: absolute;
+}
+.my-project-text04 {
+  top: 140px;
+  left: 1258px;
+  color: rgba(255, 255, 255, 1);
+  width: 174px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.my-project-text06 {
+  top: 140px;
+  left: 1452px;
+  color: rgba(255, 255, 255, 1);
+  width: 174px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.my-project-text08 {
+  top: 140px;
+  left: 1646px;
+  color: rgba(255, 255, 255, 1);
+  width: 174px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.my-project-text10 {
+  top: 270px;
+  left: -77px;
+  color: rgba(255, 255, 255, 1);
+  width: 530px;
+  height: auto;
+  position: absolute;
+  font-size: 50px;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.my-project-text12 {
+  top: 528px;
+  left: 772px;
+  color: rgba(0, 0, 0, 1);
+  width: 1091px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.my-project-death-strandingvehicules1 {
+  top: 532px;
+  left: 43px;
+  width: 537px;
+  height: 244px;
+  position: absolute;
+}
+.my-project-image2 {
+  top: 776px;
+  left: 246px;
+  width: 334px;
+  height: 192px;
+  position: absolute;
+}
+.my-project-image3 {
+  top: 776px;
+  left: 43px;
+  width: 191px;
+  height: 192px;
+  position: absolute;
+}
+.my-project-text33 {
+  top: 431px;
+  left: 43px;
+  color: rgba(0, 0, 0, 1);
+  width: 539px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.my-project-text35 {
+  top: 984px;
+  left: 1278px;
+  color: rgba(0, 0, 0, 1);
+  width: 627px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.my-project-text37 {
+  top: 943px;
+  left: 772px;
+  color: rgba(0, 0, 0, 1);
+  width: 673px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.my-project-pngwing1 {
+  top: 185px;
+  left: 747px;
+  width: 213px;
+  height: 213px;
+  position: absolute;
+}
+.my-project-pngwing2 {
+  top: 220px;
+  left: 1051px;
+  width: 142px;
+  height: 154px;
+  position: absolute;
+}
