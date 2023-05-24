@@ -215,16 +215,16 @@
   font-weight: 400;
 }
 @keyframes slideLeft {
-  0% {
+  from {
     transform: translateX(0);
     opacity: 1;
   }
-  100% {
+  to {
     transform: translateX(-100%);
     opacity: 0;
   }
 }
 
-.home-text11 span {
-  animation: slideLeft 5s linear;
+.animate-left {
+  animation: slideLeft 5s ease-in-out;
 }
