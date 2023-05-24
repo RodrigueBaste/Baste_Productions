@@ -225,6 +225,6 @@
   }
 }
 
-.animate-left {
+..home-text11 span {
   animation: slideLeft 5s ease-in-out;
 }
