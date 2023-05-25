@@ -147,6 +147,7 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+  animation: slideLeft 1s ease-in-out; 
 }
 .home-text30 {
   top: 450px;
@@ -219,15 +220,16 @@
     transform: translateX(100%);
     opacity: 0;
   }
+  50% {
+    transform: translateX(50%);
+    opacity: 0.5;
+  }
   100% {
     transform: translateX(0);
     opacity: 1;
   }
 }
 
-.home-text11 span {
-  animation: slideLeft 5s ease-in-out;
-}
 .WebContainer{
   width:100%;
   min-width:1000px;
