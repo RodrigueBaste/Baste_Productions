@@ -83,9 +83,6 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
-  overflow: hidden; /* Assurez-vous que le contenu dépasse de la zone parente */
-  white-space: nowrap; /* Empêche le texte de se retourner à la ligne */
-  animation: slide 5s linear forwards; /* Durée, timing et répétition de l'animation */
 }
 .home-text05 {
   top: 140px;
@@ -150,6 +147,9 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+  overflow: hidden; /* Assurez-vous que le contenu dépasse de la zone parente */
+  white-space: nowrap; /* Empêche le texte de se retourner à la ligne */
+  animation: slide 0.2s ease-in-out forwards; /* Durée, timing et répétition de l'animation */
 }
 .home-text30 {
   top: 450px;
