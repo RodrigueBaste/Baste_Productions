@@ -83,6 +83,9 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
+  overflow: hidden; /* Assurez-vous que le contenu dépasse de la zone parente */
+  white-space: nowrap; /* Empêche le texte de se retourner à la ligne */
+  animation: slide 5s linear forwards; /* Durée, timing et répétition de l'animation */
 }
 .home-text05 {
   top: 140px;
@@ -228,5 +231,13 @@
 }
 .home-text07:hover {
   color: yellow;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(100%); /* Démarre le texte en dehors de la zone parente */
+  }
+  100% {
+    transform: translateX(0%); /* Fait glisser le texte vers la gauche jusqu'à sa position d'origine */
+  }
 }
 </style>
