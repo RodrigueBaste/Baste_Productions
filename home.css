@@ -84,6 +84,9 @@
   font-stretch: normal;
   text-decoration: none;
 }
+.home-text04:hover {
+  color: yellow;
+}
 .home-text05 {
   top: 140px;
   left: 1452px;
