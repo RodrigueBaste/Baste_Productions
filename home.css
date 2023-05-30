@@ -84,9 +84,6 @@
   font-stretch: normal;
   text-decoration: none;
 }
-.home-text04:hover {
-  color: yellow;
-}
 .home-text05 {
   top: 140px;
   left: 1452px;
@@ -222,3 +219,14 @@
   min-width:1000px;
   height:auto;
 }
+<style>
+.home-text04:hover {
+  color: yellow;
+}
+.home-text05:hover {
+  color: yellow;
+}
+.home-text07:hover {
+  color: yellow;
+}
+</style>

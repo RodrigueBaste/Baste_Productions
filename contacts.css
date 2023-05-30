@@ -186,3 +186,14 @@
 @media (max-width: 768px) {
   /* Ajoutez vos ajustements de mise en page ici */
 }
+<style>
+.home-text04:hover {
+  color: yellow;
+}
+.home-text05:hover {
+  color: yellow;
+}
+.home-text07:hover {
+  color: yellow;
+}
+</style>
