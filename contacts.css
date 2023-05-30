@@ -189,14 +189,13 @@
 @media (max-width: 768px) {
   /* Ajoutez vos ajustements de mise en page ici */
 }
-<style>
-.home-text04:hover {
+.contacts-text04:hover {
   color: yellow;
 }
-.home-text05:hover {
+.contacts-text06:hover {
   color: yellow;
 }
-.home-text07:hover {
+.contacts-text08:hover {
   color: yellow;
 }
 @keyframes slide {
@@ -207,4 +206,3 @@
     transform: translateX(0%); /* Fait glisser le texte vers la gauche jusqu'à sa position d'origine */
   }
 }
-</style>

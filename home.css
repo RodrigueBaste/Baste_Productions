@@ -222,7 +222,6 @@
   min-width:1000px;
   height:auto;
 }
-<style>
 .home-text04:hover {
   color: yellow;
 }
@@ -240,4 +239,3 @@
     transform: translateX(0%); /* Fait glisser le texte vers la gauche jusqu'à sa position d'origine */
   }
 }
-</style>
