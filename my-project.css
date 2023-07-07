@@ -280,6 +280,9 @@
 .my-project-text08:hover {
   color: yellow;
 }
+.my-project-text37:hover {
+  color: yellow;
+}
 @keyframes slide {
   0% {
     transform: translateX(100%); /* Démarre le texte en dehors de la zone parente */
