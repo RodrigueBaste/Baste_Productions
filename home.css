@@ -147,7 +147,7 @@
   line-height: normal;
   font-stretch: normal;
   text-decoration: none;
-  overflow: scroll; /* Assurez-vous que le contenu dépasse de la zone parente */
+  overflow: visible; /* Assurez-vous que le contenu dépasse de la zone parente */
   white-space: pre-wrap; /* Empêche le texte de se retourner à la ligne */
   animation: slide 0.2s ease-in-out forwards; /* Durée, timing et répétition de l'animation */
 }
