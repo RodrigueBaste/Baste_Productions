@@ -1,141 +1,171 @@
 <!DOCTYPE html>
-<html lang="english">
+<html lang="en">
   <head>
-    <title>exported project</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
-
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
-    </style>
-    <style data-tag="default-style-sheet">
-      html {
-        font-family: Inter;
-        font-size: 16px;
-      }
-
-      body {
-        font-weight: 400;
-        font-style:normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.5;
-        color: var(--dl-color-gray-black);
-        background-color: var(--dl-color-gray-white);
-
-      }
-    </style>
+    <title>Responsive Portfolio</title>
+    <!-- box icons-->
     <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-      data-tag="font"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <!-- custom css-->
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
   </head>
   <body>
-    <div>
-      <link href="./home.css" rel="stylesheet" />
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
 
-      <div class="home-container">
-        <div class="home-home">
-          <img
-            src="public/external/rectangle1717-fpol-2000w.png"
-            alt="Rectangle1717"
-            class="home-rectangle1"
-          />
-          <img
-            src="public/external/rectangle2718-9nz-2000w.png"
-            alt="Rectangle2718"
-            class="home-rectangle2"
-          />
-          <span class="home-text"><span>HOME</span></span>
-          <span class="home-text02"><span>Baste_Productions</span></span>
-          <img
-            src="public/external/buttonoveringbutton734-n93s-200h.png"
-            alt="ButtonOveringbutton734"
-            class="home-button-overingbutton"
-          />
-          <span class="home-text04">Home</span>
-          <a
-            href="https://drpestilent.github.io/Baste_Productions/Myproject.html"
-            class="home-text05"
-          >
-            <span>My project</span>
-          </a>
-          <a
-            href="https://drpestilent.github.io/Baste_Productions/Contacts.html"
-            class="home-text07"
-          >
-            <span>Contacts</span>
-          </a>
-          <span class="home-text09"><span>ABOUT ME :</span></span>
-          <span class="home-text11">
-            <span>
-              <span>
-                Je suis un passionné d’informatique et je suis actuellement en
-                train de forger mon propre chemin en tant qu'autodidacte.
-              </span>
-              <br />
-              <span></span>
-              <br />
-              <span>
-                Ma soif d'apprendre et ma détermination m'ont permis d'acquérir
-                des connaissances dans plusieurs langages de programmation,
-                notamment le langage C, Python et JavaScript.
-              </span>
-              <br />
-              <span></span>
-              <br />
-              <span>
-                Mon parcours autodidacte m'a permis de développer une capacité
-                d'adaptation et d'apprentissage rapide, ainsi qu'une grande
-                autonomie dans mes projets.
-              </span>
-              <br />
-              <span></span>
-              <br />
-              <span>
-                Je suis à la recherche d’opportunités professionnelles pour
-                mettre mes compétences en pratique et continuer à évoluer en
-                tant que développeur logiciel.
-              </span>
-              <br />
-              <span></span>
-              <br />
-              <span>
-                Je suis ouvert aux collaborations, aux projets passionnants et
-                aux environnements qui favorisent la croissance et
-                l'apprentissage continu.
-              </span>
-            </span>
-          </span>
-          <span class="home-text30">
-            <span class="home-text31">Rodrigue Baste</span>
-            <br class="home-text32" />
-            <span class="home-text33">Autodidacte</span>
-            <br class="home-text34" />
-            <span class="home-text35">
-              Recherche un Stage en informatique
-            </span>
-            <br class="home-text36" />
-            <br class="home-text37" />
-            <span class="home-text38">Projets en cours :</span>
-            <span class="home-text39"></span>
-            <br class="home-text40" />
-            <span class="home-text41">
-              -Développement de jeu vidéo avec le moteur Unreal engine 5.2
-            </span>
-            <br class="home-text42" />
-            <span class="home-text31">
-              -Développement d'une application mobile IOS et Android à destination des auto-entrepreneurs (Langage Python, Framework kivy, kivymd)
-            </span>
-            <br />
-            <br />
-          </span>
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello,</h3>
+        <h1>My name is Rodrigue Baste</h1>
+        <h3>And I'm a <span>Full Stack Developer</span></h3>
+        <p>I'm on my way to ingeneering school.</p>
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-facebook-circle"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="#"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <a href="#" class="btn">Download CV</a>
+      </div>
+      <div class="home-img">
+        <img src="images/home.png" alt="" />
+      </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/home.png" alt="aboutimg" />
+      </div>
+
+      <div class="about_content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer</h3>
+        <p>
+            Je suis un passionné d’informatique et je suis actuellement en train de forger mon propre chemin en <span>BTS SIO option developpement</span>. 
+            <br>Ma soif d'apprendre et ma détermination m'ont permis d'acquérir des connaissances dans plusieurs 
+            langages de programmation, notamment le langage <span>HTML, css, C, C++,Python, JavaScript, GDscript, Unreal Visual script, et SQL</span>. 
+            <br>Mon parcours autodidacte m'a permis de développer une capacité d'adaptation et d'apprentissage rapide, ainsi qu'une grande
+            autonomie dans mes projets.
+            <br>Je suis ouvert aux collaborations, aux projets passionnants et aux environnements qui favorisent la croissance et l'apprentissage continu.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+      <h2 class="heading">My <span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+            tempore.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxs-game"></i>
+          <h3>Game Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+            tempore.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxs-paint-roll"></i>
+          <h3>Graphic Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+            tempore.
+          </p>
+          <a href="#" class="btn">Read More</a>
         </div>
       </div>
-    </div>
+    </section>
+
+    <!-- Portfolio section design -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img
+            src="images/portfolio1.jpg"
+            alt="inspiration photo form Hideo Kojima's work"
+          />
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+              sint.
+            </p>
+            <a href="#"><i class="bx bx-link-alt"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="images\portfolioGame.jpg" alt="portfolio1" />
+          <div class="portfolio-layer">
+            <h4>Game Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet,
+              sint.
+            </p>
+            <a href="#"><i class="bx bx-link-alt"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me !</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message here"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- custom js -->
+    <script src="js/script.js">
+      Download CV
+    </script>
+    <script>
+      ScrollReveal().reveal(".about");
+    </script>
+    <script>
+      ScrollReveal().reveal(".services");
+    </script>
   </body>
 </html>

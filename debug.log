@@ -1,8 +1,2 @@
-[0524/125359.035:ERROR:(-1)] Check failed: false. 
-[0524/154108.526:ERROR:(-1)] Check failed: false. 
-[0524/155207.785:ERROR:(-1)] Check failed: false. 
-[0524/155718.386:ERROR:(-1)] Check failed: false. 
-[0530/200549.087:ERROR:(-1)] Check failed: false. 
-[0530/202124.530:ERROR:(-1)] Check failed: false. 
-[0530/202602.882:ERROR:(-1)] Check failed: false. 
-[0530/202605.130:ERROR:(-1)] Check failed: false. 
+[0909/211209.714:ERROR:check.cc(290)] Check failed: false. NOTREACHED log messages are omitted in official builds. Sorry!
+[0910/011348.554:ERROR:check.cc(290)] Check failed: false. NOTREACHED log messages are omitted in official builds. Sorry!
