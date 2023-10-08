@@ -176,7 +176,7 @@
             <p>
               J'ai développé un jeu avec le moteur d'Unrel engine 5.0 (portage vers 5.2 bientôt terminé)
             </p>
-            <a href="GameDocument Design.html"><i class="bx bx-link-alt"></i></a>
+            <a href="GameDocument Design.html" target="_blank"><i class="bx bx-link-alt"></i></a>
           </div>
         </div>
       </div>
@@ -187,23 +187,23 @@
     <!-- contact section design-->
     <section class="contact" id="contact">
       <h2 class="heading">Contact <span>Me !</span></h2>
-      <form action="donneeForm.php" method="post">
+      <form action="#" method="post">
         <div class="input-box">
           <input type="text" placeholder="Full Name" name="nom"/>
           <input type="email" placeholder="Email Address" name="email"/>
         </div>
         <div class="input-box">
-          <input type="number" placeholder="Phone number" />
+          <input type="text" placeholder="Phone number" name="phone"/>
           <input type="text" placeholder="Email Subject" name="message" />
         </div>
         <textarea
-          name=""
+          name="message"
           id=""
           cols="30"
           rows="10"
           placeholder="Your Message here"
         ></textarea>
-        <input type="submit" value="Send Message" class="btn" />
+        <input type="submit" value="Send Message" class="btn" name="submitbtn"/>
       </form>
     </section>
 
@@ -224,6 +224,7 @@
     <script src="js/revealAnimation.js"></script>
     <script src="js/typeWriterAnimation.js"></script>
     <script src="js/cycledColorChange.js"></script>
+    <script src="js/smoothscroll.js"></script>
 
     <!-- execution des scripts -->
 
