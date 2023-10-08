@@ -456,6 +456,15 @@ span {
   font-size: 20px;
 }
 
+#preloader {
+  background: #191f26 url(https://i.pinimg.com/originals/90/80/60/9080607321ab98fa3e70dd24b2513a20.gif) no-repeat center center;
+  background-size: 50%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
 /* section des animations ici */
 
 @keyframes blink {

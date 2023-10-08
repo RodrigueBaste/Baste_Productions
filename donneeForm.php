@@ -29,6 +29,8 @@
       </nav>
     </header>
 
+    </div>
+
     <!-- home section design -->
     <section class="home" id="home">
       <div class="home-content">
@@ -59,7 +61,7 @@
     // Connexion à la base de données
     $servername = "192.168.1.11";
     $username = "root";
-    $password = "HunterX2011!";
+    $password = "*******";
     $dbname = "contacts";
 
     $conn = new mysqli($servername, $username, $password, $dbname);

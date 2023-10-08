@@ -29,6 +29,8 @@
       </nav>
     </header>
 
+    <div id="preloader"></div>
+
     <!-- home section design -->
     <section class="home" id="home">
       <div class="home-content">
@@ -242,6 +244,16 @@
     <script src="js/smoothscroll.js"></script>
     <script src="js/levitatingElement.js"></script>
     <script src="js/popup.js"></script>
+    <script>
+      let loader = document.getElementById("preloader");
+
+    window.addEventListener("load", function(){
+      setTimeout(function() {
+        loader.style.display = "none"
+      }, 600);
+
+    });
+    </script>
 
     <!-- execution des scripts -->
 
