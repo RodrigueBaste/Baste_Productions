@@ -15,10 +15,10 @@
   --second-bg-color: #bde0fe;
   --text-color: #000000;
   --main-color: #0091ff;
-  --second-color: #0802A3;
-  --third-color: #FF4B91;
-  --fourth-color: #FF7676;
-  --fith_color: #FFCD4B;
+  --second-color: #90dbf4;
+  --third-color: #a3c4f3;
+  --fourth-color: #cfbaf0;
+  --fith_color: #f1c0e8;
 }
 
 html {
@@ -89,6 +89,10 @@ section {
 
 .home-img img {
   width: 35vw;
+}
+
+.levitatingElement {
+  animation: levitate 2s infinite alternate;
 }
 
 .home-content h3 {
@@ -232,6 +236,7 @@ span {
 
 .portfolio {
   background: var(--second-bg-color);
+  color: white;
 }
 
 .portfolio h2 {
@@ -386,15 +391,22 @@ span {
   text-align: center;
 }
 
-#typewriter {
-  color: var(--main-color);
+#typewriterHome {
+  color: var(--text-color);
   font-weight: bold;
 }
 
-#cursor {
+#typewriterAbout {
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.cursor {
   color: var(--main-color);
   animation: blink 1s linear infinite;
 }
+
+/* section des animations ici */
 
 @keyframes blink {
   0% {
@@ -426,12 +438,23 @@ span {
   }
 }
 
+@keyframes levitate {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+  
+}
+
 /* On rend le portfolio responsive and utilisant le media query et en parametrant different style de css selon la taille d'affichage du media */
-BREAKPOINTS @media (max-width: 1200px) {
+@media (max-width: 1200px) {
   html {
     font-size: 55%;
   }
 }
+
 
 @media (max-width: 991px) {
   .header {

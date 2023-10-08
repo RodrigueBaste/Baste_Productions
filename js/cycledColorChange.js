@@ -24,12 +24,14 @@ function changerCouleur() {
     let abouts = document.querySelectorAll(".about");
     let portfolios = document.querySelectorAll(".portfolio");
     let links = document.querySelectorAll(".navbar a");
+    let skills = document.querySelectorAll(".services-box");
   
     // Mélangez les couleurs
     couleurs.sort(function () {
       return 0.5 - Math.random();
     });
   
+    //affectation des couleurs aux divers elements
     icons.forEach(function (icon, index) {
       let randomColor = couleurs[index];
       icon.style.color = randomColor;
@@ -60,6 +62,11 @@ function changerCouleur() {
     portfolios.forEach(function (portfolio, index) {
       let randomColor = couleurs[index];
       portfolio.style.background = randomColor;
+    });
+
+    skills.forEach(function (skill, index) {
+      let randomColor = couleurs[index];
+      skill.style.background = randomColor;
     });
 
   }
