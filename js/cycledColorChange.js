@@ -18,13 +18,11 @@ function changerCouleur() {
     // on implemente les couleurs du css dans les couleurs aléatoire
     let couleurs = [fithColor, secondColor, thirdColor, fourthColor, fithColor];
   
-    // Sélectionnez chaque icône individuellement
+    // Sélectionnez chaque elements individuellement
     let icons = document.querySelectorAll(".social-media i");
     let icons_a = document.querySelectorAll(".social-media a");
     let abouts = document.querySelectorAll(".about");
     let portfolios = document.querySelectorAll(".portfolio");
-  
-    // Sélectionnez chaque lien individuellement
     let links = document.querySelectorAll(".navbar a");
   
     // Mélangez les couleurs
@@ -63,6 +61,7 @@ function changerCouleur() {
       let randomColor = couleurs[index];
       portfolio.style.background = randomColor;
     });
+
   }
   
   // Appelez la fonction changerCouleur au chargement de la page
