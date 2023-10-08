@@ -7,6 +7,36 @@
 </head>
 <body>
     <?php
+    $servername = "192.168.1.11"; // L'adresse IP du serveur MySQL
+    $username = "root"; // Le nom d'utilisateur MySQL
+    $password = "HunterX2011!"; // Le mot de passe MySQL
+    $dbname = "contacts"; // Le nom de la base de données
+    
+    // Établir une connexion
+    $conn = new mysqli($servername, $username, $password, $dbname);
+    
+    // Vérifier la connexion
+    if ($conn->connect_error) {
+      die("La connexion a échoué : " . $conn->connect_error);
+    }
+    
+    echo "Connexion réussie";
+    
+    // Vous pouvez maintenant exécuter des requêtes SQL ici
+    $sql = "SELECT * FROM nom_de_la_table";
+    $result = $conn->query($sql);
+
+    if ($result->num_rows > 0) {
+    // Traiter les données
+    } else {
+  echo "Aucun résultat trouvé";
+}
+    // Fermer la connexion
+    $conn->close();
+
+
+
+
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $nom = $_REQUEST["nom"];
         $email = $_REQUEST["email"];
