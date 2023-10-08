@@ -90,10 +90,14 @@ section {
 .home-img img {
   width: 35vw;
   margin-left: 100px;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
 
 .levitatingElement {
-  animation: levitate 2s infinite alternate;
+  animation: levitateAndGlow 2s infinite alternate;
 }
 
 .home-content h3 {
@@ -173,6 +177,11 @@ span {
 
 .about-img img {
   width: 35vw;
+  margin-left: 100px;
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
 
 .heading {
@@ -422,30 +431,55 @@ span {
 
 .popup-content {
   background-color: #fff;
-  padding: 10%;
+  padding: 4%;
   border-radius: 8px;
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column; /* Pour aligner le contenu verticalement */
-  text-align: center; /* Pour centrer le texte */
+  flex-direction: column;
+  text-align: center;
 }
 
+.popup-content h1,
+.popup-content h2,
+.popup-content p {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
 
-.popup-content .btn {
+.popup-content h1 {
+  font-size: 36px;
+  text-align: left;
+}
+
+.popup-content h2 {
+  font-size: 30px;
+  text-align: left;
+}
+
+.popup-content p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.popup-content a.btn {
   position: absolute;
-  top: 0;
-  right: 0;
-  margin: 10px;
-  width: 50px;
-  height: 25px;
-  font-size: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  top: 10px;
+  right: 10px;
+  display: inline-block;
+  padding: 10px 20px;
+  background: var(--main-color);
+  border-radius: 4px;
+  color: #fff;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.popup-content a.btn:hover {
+  background: var(--second-color);
 }
 
 .close-popup {
@@ -497,14 +531,17 @@ span {
   }
 }
 
-@keyframes levitate {
+@keyframes levitateAndGlow {
   0% {
     transform: translateY(0);
+    filter: drop-shadow(0 0 5px var(--main-color));
+    opacity: 0.9;
   }
   100% {
-    transform: translateY(-20px);
+    transform: translateY(-10px);
+    filter: drop-shadow(0 0 20px var(--main-color));
+    opacity: 1;
   }
-  
 }
 
 /* On rend le portfolio responsive and utilisant le media query et en parametrant different style de css selon la taille d'affichage du media */

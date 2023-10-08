@@ -46,7 +46,7 @@
         <a href="documents\CV.pdf" class="btn" target="_blank" >Download CV</a>
       </div>
       <div class="home-img">
-        <img src="images/home.png" alt="" class="levitatingElement"/>
+        <img src="images/home.png" class="levitatingElement"/>
       </div>
     </section>
 
@@ -104,7 +104,8 @@
             <ol>Unreal engine</ol>
             <ol>Adobe Substance painter</ol>
           </p>
-          <a href="#" class="btn">Read More</a>
+          <a href="#" class="btn" onclick="openPopup('popupGameDesign')">Read More</a>
+          
         </div>
 
         <div class="services-box">
@@ -118,7 +119,7 @@
             <ol>UML</ol>
             <ol>MERISE</ol>
           </p>
-          <a href="#" class="btn">Read More</a>
+          <a href="#" class="btn" onclick="openPopup('popupDatabase')">Read More</a>
         </div>
 
         <div class="services-box">
@@ -143,16 +144,53 @@
             <h1>Acquisition :</h1>
             <ol>
               <h2>C : </h2>
-              <p>2 years <span> degree in physics, chemistry and engineering science</span> 1 year through personal learning.</p>
-              <h2>Python : </h2>
               <p> Acquired during 2 years my <span> degree in physics, chemistry and engineering science</span> and 1 year through personal learning.</p>
               <h2>Python : </h2>
               <p> Acquired during 2 years my <span> degree in physics, chemistry and engineering science</span> and 1 year through personal learning.</p>
-              <h2>Python : </h2>
+              <h2>C++ : </h2>
+              <p> Acquired during 2 years my <span> degree in physics, chemistry and engineering science</span> and 1 year through personal learning.</p>
+              <h2>C# : </h2>
+              <p> Acquired during 2 years my <span> degree in physics, chemistry and engineering science</span> and 1 year through personal learning.</p>
+              <h2>JavaScript : </h2>
               <p> Acquired during 2 years my <span> degree in physics, chemistry and engineering science</span> and 1 year through personal learning.</p>
               <h2>Python : </h2>
               <p> Acquired during 2 years my <span> degree in physics, chemistry and engineering science</span> and 1 year through personal learning.</p>
-              <h2>Python : </h2>
+            </ol>
+          </div>
+        </div>
+
+        <div id="popupDatabase" class="popup">
+          <div class="popup-content">
+            <a class="btn" onclick="closePopup('popupDatabase')"> Close</a>
+            <h1>Acquisition :</h1>
+            <ol>
+              <h2>SQL : </h2>
+              <p> Acquired during 2 years my <span> degree in physics, chemistry and engineering science</span> and 1 year through personal learning.</p>
+              <h2>MySQM : </h2>
+              <p> Acquired during 2 years my <span> degree in physics, chemistry and engineering science</span> and 1 year through personal learning.</p>
+              <h2>Mariadb : </h2>
+              <p> Acquired during 2 years my <span> degree in physics, chemistry and engineering science</span> and 1 year through personal learning.</p>
+              <h2>UML : </h2>
+              <p> Acquired during 2 years my <span> degree in physics, chemistry and engineering science</span> and 1 year through personal learning.</p>
+              <h2>MERISE </h2>
+              <p> Acquired during 2 years my <span> degree in physics, chemistry and engineering science</span> and 1 year through personal learning.</p>
+            </ol>
+          </div>
+        </div>
+        <div id="popupGameDesign" class="popup">
+          <div class="popup-content">
+            <a class="btn" onclick="closePopup('popupGameDesign')"> Close</a>
+            <h1>Acquisition :</h1>
+            <ol>
+              <h2>SQL : </h2>
+              <p> Acquired during 2 years my <span> degree in physics, chemistry and engineering science</span> and 1 year through personal learning.</p>
+              <h2>MySQM : </h2>
+              <p> Acquired during 2 years my <span> degree in physics, chemistry and engineering science</span> and 1 year through personal learning.</p>
+              <h2>Mariadb : </h2>
+              <p> Acquired during 2 years my <span> degree in physics, chemistry and engineering science</span> and 1 year through personal learning.</p>
+              <h2>UML : </h2>
+              <p> Acquired during 2 years my <span> degree in physics, chemistry and engineering science</span> and 1 year through personal learning.</p>
+              <h2>MERISE </h2>
               <p> Acquired during 2 years my <span> degree in physics, chemistry and engineering science</span> and 1 year through personal learning.</p>
             </ol>
           </div>
@@ -244,16 +282,7 @@
     <script src="js/smoothscroll.js"></script>
     <script src="js/levitatingElement.js"></script>
     <script src="js/popup.js"></script>
-    <script>
-      let loader = document.getElementById("preloader");
-
-    window.addEventListener("load", function(){
-      setTimeout(function() {
-        loader.style.display = "none"
-      }, 600);
-
-    });
-    </script>
+    <script src="js/preloader.js"></script>
 
     <!-- execution des scripts -->
 

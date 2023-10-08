@@ -3,7 +3,7 @@ function addLevitationEffectByClass(className) {
 
     elements.forEach(element => {
         element.addEventListener('mouseover', () => {
-            element.style.animation = 'levitate 0.5s infinite alternate';
+            element.style.animation = 'levitateAndGlow 0.5s infinite alternate';
         });
 
         element.addEventListener('mouseout', () => {
