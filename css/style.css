@@ -15,10 +15,10 @@
   --second-bg-color: #bde0fe;
   --text-color: #000000;
   --main-color: #0091ff;
-  --second-color: #90dbf4;
-  --third-color: #a3c4f3;
-  --fourth-color: #cfbaf0;
-  --fith_color: #f1c0e8;
+  --second-color: #7DC7FF;
+  --third-color: #0065B3;
+  --fourth-color: #FF3833;
+  --fith_color: #FF5B19;
 }
 
 html {
@@ -27,7 +27,6 @@ html {
 }
 
 body {
-  background: var(--bg-color);
   color: var(--text-color);
 }
 
@@ -245,7 +244,7 @@ span {
 }
 
 .portfolio {
-  background: var(--second-bg-color);
+  background-color: var(--second-bg-color);
   color: white;
 }
 
@@ -452,7 +451,12 @@ span {
 
 .popup-content h1 {
   font-size: 36px;
-  text-align: left;
+  text-align: center;
+  margin-top: 20px;
+  position: absolute;
+  top: 0;
+
+
 }
 
 .popup-content h2 {

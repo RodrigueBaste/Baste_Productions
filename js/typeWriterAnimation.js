@@ -49,7 +49,7 @@ function typewriterAnimation(elementId, phrases, speedUp, normalSpeed) {
 // ajout des phrases ici 
 const phrasesHome = [
   'I am more than motivated to go to engineering school.',
-  'I am a BTS SIO student specializing in <span class="cursor">Software Solutions and Business Applications</span>. <p>I\'m on my way to ingeneering school.<span class="cursor">|</span></p>'
+  'I am an IT specializing in <span class="cursor">services for organizations, software solutions and business applications</span>. <p>I\'m on my way to ingeneering school.<span class="cursor">|</span></p>'
 ];
 const phrasesAbout = [
   'About <span>Me</span><h3>BTS SIO SLAM student</h3>'
