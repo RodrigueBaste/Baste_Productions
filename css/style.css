@@ -136,14 +136,15 @@ span {
 }
 
 .social-media a:hover {
-  background: var(--third-color);
+  background: var(--second-bg-color);
   color: var(--second-bg-color);
   box-shadow: 0 0 1rem var(--third-color);
 }
 
 .social-media i {
-  color: var(--second-color);
+  color: var(--second-bg-color);
 }
+
 
 .btn {
   display: inline-block;
@@ -153,7 +154,7 @@ span {
   box-shadow: 0 0 1rem var(--main-color);
   font-size: 1.6rem;
   /* couleur de départ */
-  color: var(--second-bg-color);
+  color: white;
   letter-spacing: 0.1rem;
   font-weight: 600;
   transition: 0.5s ease;
