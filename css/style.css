@@ -550,7 +550,7 @@ span {
 }
 
 /* On rend le portfolio responsive and utilisant le media query et en parametrant different style de css selon la taille d'affichage du media */
-@media (max-width: 1200px) {
+BREAKPOINTS @media (max-width: 1200px) {
   html {
     font-size: 55%;
   }
