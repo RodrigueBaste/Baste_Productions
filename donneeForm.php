@@ -31,10 +31,10 @@
     $message = $_POST['message'];
 
     // Connexion à la base de données
-    $servername = "rodrigue.baste.sql.free.fr";
-    $username = "rodrigue.baste";
-    $password = "rLCsRwdz5a+mga+";
-    $dbname = "rodrigue_baste";
+    $servername = "localhost";
+    $username = "id21380302_rodriguebaste";
+    $password = "HunterXHunter2011!";
+    $dbname = "id21380302_portfolio";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -86,5 +86,3 @@
 
   </body>
 </html>
-
-
